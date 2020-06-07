@@ -98,7 +98,7 @@ function getTestData(noOfCircle){
 
 function addCirclesToAnimation(svg, data) {
 
-    // data = getTestData(10);
+    // data = getTestData(200);
 
     let circles_no = data.length;
     let max_allowed_r_path = 300;
@@ -148,7 +148,7 @@ function addHover(svg, circle, circle_data) {
     var path_between_circle_and_hover = 350;
     if (window.mobileCheck()){
         // by mobile devices max
-        path_between_circle_and_hover = 250;
+        path_between_circle_and_hover = 300;
     }
 
 
